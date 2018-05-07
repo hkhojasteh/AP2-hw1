@@ -8,7 +8,7 @@ To start out this homework, copy over your `process_image.c` file from hw0 to th
 
 ## 1. Image resizing ##
 
-We've been talking a lot about resizing and interpolation in class, now's your time to do it! To resize we'll need some interpolation methods and a function to create a new image and fill it in with our interpolation methods.
+To resize we'll need some interpolation methods and a function to create a new image and fill it in with our interpolation methods.
 
 - Fill in `float nn_interpolate(image im, float x, float y, int c);` in `src/resize_image.c`
     - It should perform nearest neighbor interpolation. Remember to use the closest `int`, not just type-cast because in C that will truncate towards zero.
@@ -74,7 +74,7 @@ Now it's time to fill in `image convolve_image(image im, image filter, int prese
 
 Also, `filter` better have either the same number of channels as `im` or have 1 channel. I check this with an `assert`.
 
-We are calling this a convolution but you don't need to flip the filter or anything (we're actually doing a cross-correlation). Just apply it to the image as we discussed in class:
+We are calling this a convolution but you don't need to flip the filter or anything (we're actually doing a cross-correlation). Just apply it to the image:
 
 ![covolution](figs/convolution.png)
 
