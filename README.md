@@ -135,7 +135,7 @@ Now you should be able to try out your new blurring function! It should have muc
 
 ![blurred dog](figs/dog-gauss2.png)
 
-## 3. Hybrid images ##
+## 3. Hybrid images (Extra Credit) ##
 
 Gaussian filters are cool because they are a true low-pass filter for the image. This means when we run them on an image we only get the low-frequency changes in an image like color. Conversely, we can subtract this low-frequency information from the original image to get the high frequency information!
 
