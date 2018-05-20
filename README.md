@@ -115,7 +115,7 @@ Highpass                   |  Sharpen                  | Emboss
 :-------------------------:|:-------------------------:|:--------------------|
 ![](figs/highpass.png)     | ![](figs/sharpen.png)     | ![](figs/emboss.png)
 
-### 2.3 Implement a Gaussian kernel ###
+### 2.3 Implement a [Gaussian kernel](https://en.m.wikipedia.org/wiki/Gaussian_blur) ###
 
 Implement `image make_gaussian_filter(float sigma)` which will take a standard deviation value and return a filter that smooths using a gaussian with that sigma. How big should the filter be, you ask? 99% of the probability mass for a gaussian is within +/- 3 standard deviations so make the kernel be 6 times the size of sigma. But also we want an odd number, so make it be the next highest odd integer from 6x sigma.
 
