@@ -28,7 +28,7 @@ Your image should look something like:
 
 ![blocky dog](figs/dog4x-nn.png)
 
-Finally, fill in the similar functions `bilinear_interpolate` and `bilinear_resize` to perform bilinear interpolation. Try it out again in `python`:
+Finally, fill in the similar functions `bilinear_interpolate` and `bilinear_resize` to perform [bilinear interpolation](https://angeljohnsy.blogspot.co.uk/2017/11/nearest-neighbor-interpolation.html?m=1). Try it out again in `python`:
 
     from uwimg import *
     im = load_image("data/dogsmall.jpg")
