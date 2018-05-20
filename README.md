@@ -8,7 +8,7 @@ To start out this homework, copy over your `process_image.c` file from hw0 to th
 
 ## 1. Image resizing ##
 
-To resize we'll need some interpolation methods and a function to create a new image and fill it in with our interpolation methods.
+To resize we'll need some [interpolation methods](https://angeljohnsy.blogspot.co.uk/2017/11/nearest-neighbor-interpolation.html?m=1) and a function to create a new image and fill it in with our interpolation methods.
 
 - Fill in `float nn_interpolate(image im, float x, float y, int c);` in `src/resize_image.c`
     - It should perform nearest neighbor interpolation. Remember to use the closest `int`, not just type-cast because in C that will truncate towards zero.
