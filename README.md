@@ -109,7 +109,7 @@ Resize                     |  Blur and Resize
 
 ### 2.2 Make some more filters and try them out! ###
 
-Fill in the functions `image make_highpass_filter()`, `image make_sharpen_filter()`, and `image make_emboss_filter()` to return the example kernels we covered in class. Try them out on some images! After you have, answer Question 2.2.1 and 2.2.2 in the source file (put your answer just right there)
+Fill in the functions `image make_highpass_filter()`, `image make_sharpen_filter()`, and `image make_emboss_filter()` to return the example kernels we covered in class. Try them out on some images! (Extra Credit) After you have, answer Question 2.2.1 and 2.2.2 in the source file (put your answer just right there)
 
 Highpass                   |  Sharpen                  | Emboss
 :-------------------------:|:-------------------------:|:--------------------|
